@@ -24,7 +24,7 @@ const chartElement = new Chart(ourCanvas, {
 function getData()
 {
     $.ajax({
-        url: 'http://127.0.0.1:5000/get_data',
+        url: '/get_data',
         type: 'POST',
         dataType: 'json',
         data: {
